@@ -1,10 +1,10 @@
 export const selectAuth = state => state.auth;
 
-export const selectAllObjects = state => state.cars.allItems;
-export const selectObjectsPerPage = state => state.cars.itemsPerPage; 
-export const selectObjectById = state => state.cars.itemById;
-export const selectisLoading = state => state.cars.isLoading;
-export const selectError = state => state.cars.error;
+export const selectAllObjects = state => state.objects.allItems;
+export const selectObjectsPerPage = state => state.objects.itemsPerPage; 
+export const selectObjectById = state => state.objects.itemById;
+export const selectisLoading = state => state.objects.isLoading;
+export const selectError = state => state.objects.error;
 
 export const selectFavoriteObjects = state => state.favorite.favoriteObjects;
 

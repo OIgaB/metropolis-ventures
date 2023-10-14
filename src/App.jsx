@@ -3,8 +3,8 @@ import { Route, Routes, Navigate } from 'react-router-dom';
 import { Layout } from './components/Layout';
 import HomePage from './pages/HomePage';
 import { SharedLayout } from './components/SharedLayout';
-import PublicRoute from "./PublicRoute";
-import PrivateRoute from "./PrivateRoute";
+import PublicRoute from "./components/PublicRoute";
+import PrivateRoute from "./components/PrivateRoute";
 
 // const HomePage = lazy(() => import('pages/HomePage'));
 const RegisterPage = lazy(() => import('./pages/RegisterPage'));

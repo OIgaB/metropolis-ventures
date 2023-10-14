@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { getAllObjects, getObjectsPerPage, getObjectByID } from './carsOperations';
+import { getAllObjects, getObjectsPerPage, getObjectByID } from './objectsOperations';
 
 const initialState = { 
     allItems: [],  
@@ -34,7 +34,7 @@ const handleRejected = (state, { payload }) => {
 }
 
 const objectsSlice = createSlice({
-    name: 'cars',
+    name: 'objects',
     initialState,
     extraReducers: (builder) => {
         builder
